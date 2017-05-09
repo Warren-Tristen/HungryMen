@@ -1,3 +1,67 @@
-body.LoginPage{
-background="LoginPage.jpg";
+body.loginPage{
+		background-image: url("LoginPage.jpg");
+		background-repeat: repeat-x;
+		background-color :#E6E6E6;
+}
+
+table.loginCredentialsTable{
+	font-family: "Agency FB";
+		background-color :black;
+	position: absolute;
+    left: 1000px;
+    top: 301px;
+	width:25%;
+	opacity:1.0;	
+	
+	
+	
+}
+
+td.loginCredentialsRow{
+	padding: 20px;
+	text-align: center;
+}
+
+.loginCredentialsTextBoxes{
+	
+	width:400;
+	height:40;
+	border-radius: 4px;
+	font-family: "Agency FB";
+	font-size:20;
+}
+
+.loginCredentialsTextLoginButton{
+	width:400;
+	height:40;
+	background-color :green;
+	border-radius: 10px;
+	font-weight: bold;
+	font-family: "Agency FB";
+	font-size:30;
+	color: white;
+	
+}
+
+.loginCredentialsQuote{
+		
+	font-family: "Agency FB";
+	font-size:20;
+	position: absolute;
+    left: 130px;
+    top: 500px;
+	
+}
+
+.loginCredentialsQuoteP{
+font-family: "Agency FB";
+color: black;
+}
+
+p{
+	color: white;
+}
+
+a{
+	color: green;
 }
