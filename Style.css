@@ -6,7 +6,7 @@ body.loginPage{
 
 table.loginCredentialsTable{
 	font-family: "Agency FB";
-		background-color :black;
+	background-color :black;
 	position: absolute;
     left: 1000px;
     top: 301px;
@@ -18,45 +18,52 @@ table.loginCredentialsTable{
 }
 
 td.loginCredentialsRow{
-	padding: 20px;
+	padding: 10px;
 	text-align: center;
 }
 
 .loginCredentialsTextBoxes{
 	
-	width:400;
-	height:40;
+	width:100%;
+	height:40px;
 	border-radius: 4px;
 	font-family: "Agency FB";
-	font-size:20;
+	font-size:150%;
+	text-align:center;
 }
 
 .loginCredentialsTextLoginButton{
-	width:400;
-	height:40;
+	width:100%;
+	height:40px;
 	background-color :green;
 	border-radius: 10px;
 	font-weight: bold;
 	font-family: "Agency FB";
-	font-size:30;
+	font-size:150%;
 	color: white;
 	
 }
 
-.loginCredentialsQuote{
+.loginCredentialsLogo{
 		
-	font-family: "Agency FB";
-	font-size:20;
+	
 	position: absolute;
     left: 130px;
     top: 500px;
 	
 }
 
-.loginCredentialsQuoteP{
-font-family: "Agency FB";
-color: black;
+
+
+.loginCredentialsFooter{
+	position: fixed;
+    bottom:0px;
+	width:100%;
+	margin:0;
+	left:0px;
 }
+
+
 
 p{
 	color: white;
