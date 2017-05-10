@@ -11,7 +11,12 @@ table.loginCredentialsTable{
     left: 1000px;
     top: 301px;
 	width:25%;
-	opacity:1.0;	
+	opacity:1.0;
+	padding-top: 50px;	
+	padding-bottom: 50px;
+	padding-right: 20px;
+	padding-left: 20px;
+	
 	
 	
 	
@@ -44,14 +49,6 @@ td.loginCredentialsRow{
 	
 }
 
-.loginCredentialsLogo{
-		
-	
-	position: absolute;
-    left: 130px;
-    top: 500px;
-	
-}
 
 
 
